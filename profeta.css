@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: 'Magic School Two';
+    src: url(MagicSchoolTwo.ttf);
+  }
+      body         {    font-family: 'Magic School Two';
+        font-size: 300px;
+
+      }    
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto     ;
+        grid-template-rows: 50px 40px 50px 100px 100px ; 
+        grid-gap: 0px;
+        background-color: rgb(216, 209,183);
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        background-color: rgb(216, 209,183);
+        text-align: center;
+        padding: 10px 0;
+        font-size: 20px;
+      }
+      
+      .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+      }
+      .item2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        
+      }
+      .item3 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        
+      }
+      .item4 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+         grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: black;
+       
+      }
+      .item5 {	
+       grid-row-start: 2;
+        grid-row-end: 4;
+         grid-column-start: 3;
+        grid-column-end: 4;
+       
+      }
+      .item6 {	
+       grid-row-start: 2;
+        grid-row-end: 4;
+         grid-column-start: 4;
+        grid-column-end: 4;
+       
+      }
+      .item7 {	
+       grid-row-start: 4;
+        grid-row-end: 10;
+         grid-column-start: 1;
+        grid-column-end: 2;
+       
+      }
+      .item8 {	
+       grid-row-start: 4;
+        grid-row-end: 4;
+         grid-column-start: 2;
+        grid-column-end: 2;
+       
+      }
+      .item9 {	
+       grid-row-start: 4;
+        grid-row-end: 4;
+         grid-column-start: 3;
+        grid-column-end: 3;
+       
+      }
+      .item10 {	
+       grid-row-start: 4;
+        grid-row-end: 4;
+         grid-column-start: 4;
+        grid-column-end: 4;
+       
+      }
+      .item11 {	
+       grid-row-start: 5;
+        grid-row-end: 5;
+         grid-column-start: 2;
+        grid-column-end: 5;
+       
+      }
+      .item12 {	
+       grid-row-start: 6;
+        grid-row-end: 7;
+         grid-column-start: 2;
+        grid-column-end: 5;
+       
+      }
+      
